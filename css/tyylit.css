@@ -1,0 +1,137 @@
+@media (max-width: 400px) {
+    #kuva {
+        content:url("https://via.placeholder.com/125");
+        width:125px;
+        height: 125px;
+    }
+    .navbar {
+      position: relative;
+      
+    }
+}
+@media (max-width: 400px) {
+
+  .navbar {
+    margin-top: -18px;
+  }
+}
+
+#nav-placeholder {
+  margin: 0 auto;
+}
+body {
+    box-sizing: border-box;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(../img/pilvet.jpg);
+}
+#about {
+    font-size: 24px;
+    bottom: 75px;
+}
+p {
+    color: rgb(0, 0, 0);
+}
+
+img {
+    position:relative;
+    width:150px; 
+    height:150px;
+    border-radius:50%;
+}
+#logo {
+  position: relative;
+  text-align: center;
+  
+}
+#logo h1 {
+  text-shadow: 1px 1px 2px blue;
+}
+#nav {
+  position: relative;
+  margin: 0 auto;
+  
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar li {
+    position: relative;
+    font-size: 24px;
+  }
+  
+.nav-link {
+  color: rgba(0, 0, 0, 0.623) !important;
+  text-align: center;
+}
+.nav-link:hover {
+  color:black !important;
+  background-color:rgb(35, 189, 189);
+}
+
+#about {
+    position: relative;
+    margin-top:100px
+
+}
+.col-sm-3{
+    border: 2px solid black;
+    box-shadow: 5px 10px;
+}
+.list {
+    
+    display:inline-block;
+    font-size: 20px;
+    text-align: left;
+}
+.content1 {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+}
+table tr td, table tr th{
+    background-color: rgba(147, 135, 151, 0.445) !important;
+}
+
+.fade-in-text {
+    animation: fadeIn 1.5s;
+    -webkit-animation: fadeIn 1.5s;
+    -moz-animation: fadeIn 1.5s;
+    -o-animation: fadeIn 1.5s;
+    -ms-animation: fadeIn 1.5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.footer {
+text-align: center;
+background-color: rgba(0, 1, 2, 0.103);
+  }
