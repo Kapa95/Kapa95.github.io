@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     text-align: center;
-    font-family: "Lucida Console", "Courier New", monospace !important;
+    font-family: Georgia, serif !important;
     background-image: url(../img/pilvet.jpg);
 
 }
@@ -38,6 +38,7 @@ img {
     width:150px; 
     height:150px;
     border-radius:50%;
+    border: 2px solid black;
 }
 #logo {
   position: relative;
