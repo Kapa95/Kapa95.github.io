@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     text-align: center;
-    font-family: Georgia, serif !important;
+    font-family: 'Candara', 'Calibri', 'Segoe', 'Segoe UI', 'Optima', Arial, sans-serif !important;
     background-image: url(../img/pilvet.jpg);
 
 }
@@ -79,10 +79,6 @@ img {
     position: relative;
     margin-top:100px
 
-}
-.col-sm-3{
-    border: 2px solid black;
-    box-shadow: 5px 10px;
 }
 .list {
     
